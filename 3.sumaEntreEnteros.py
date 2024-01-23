@@ -1,5 +1,6 @@
-suma=[]
 num=int(input('Ingrese num: '))
 num2=int(input('Ingrese num: '))
-for i in suma:
-    print()
+suma=[]
+for i in range(num+1,num2):
+    suma.append(i)
+print(sum(suma))
